@@ -3,6 +3,7 @@
 	<groupId>tcp</groupId>
 	<artifactId>road-fighter</artifactId>
 	<version>0.1.1</version>
+	<packaging>jar</packaging>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

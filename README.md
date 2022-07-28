@@ -1,3 +1,15 @@
+# Road Fighter
+
+Integrantes:
+
+- Greco, Martin
+- Bonvehi, Sebastián
+- Jimenez, Facundo
+- Bastistelli, Agustin
+- Ciccones, Agustin
+- Ramos, Alan
+- Gomez, Matias
+
 Introducción Durante el taller desarrollaremos un juego de carreras multijugador, con mecánicas similares al Road Fighter
 
 En las clases del taller se les proveerá de herramientas para poder realizarlo en Java, con las buenas prácticas que irán adquiriendo.
@@ -35,3 +47,43 @@ Como usuario quiero crear nuevas salas para que ingresen otros jugadores (*2)
 Como usuario quiero poder salir de una sala, incluso si en la misma el juego se encuentra en ejecución
 Como usuario quiero poder identificar cada jugador (saber quién lo maneja, y ver su puntuación)
 Notas: (*1) Una sala puede estar activa para que ingresen jugadores mientras un juego no esté activo en la misma. Aún así, debe aparecer en la lista de juegos como que el juego ya inició (*2) La partida podrá ser iniciada por el creador de la sala, o cuando todos los jugadores estén listos, o cualquier otra condición que consideren
+
+## Menú: 
+
+![MENU1](https://user-images.githubusercontent.com/63988862/181522195-d89d6357-2fd2-4bf0-a7bd-8a20109a5176.png)
+
+![MENU2](https://user-images.githubusercontent.com/63988862/181522200-b5ce8492-5599-4c06-b5d5-3db95c2c8cfa.png)
+
+## Instalación:
+
+Para instalar el juego, es necesario descargar este repositorio y compilar el código en modo Maven Build con el comando "javafx:run" en goals
+
+![INSTALL](https://user-images.githubusercontent.com/63988862/181524779-53f2cb4b-d0f7-4d83-b89b-47dc711fb5c2.png)
+
+## Juego:
+
+Controles: 
+
+- JUGADOR1: <br>
+Movimiento izquierda: A <br>
+Movimiento Derecha: D <br>
+Aceleracion 1 (mayor aceleracion): V <br>
+Aceleracion 2 (mayor velocidad maxima): B <br>
+<br><br>
+- JUGADOR2: <br>
+Movimiento izquierda: <- <br>
+Movimiento Derecha: -> <br>
+Aceleracion 1 (mayor aceleracion): K <br>
+Aceleracion 2 (mayor velocidad maxima): L<br>
+
+## Vista previa: 
+
+![RACE1](https://user-images.githubusercontent.com/63988862/181522204-c7f4c278-3377-4440-9d99-ce963c678d16.png)
+
+![RACE2](https://user-images.githubusercontent.com/63988862/181522207-47e7cb7b-28cc-42bb-aea6-93819bcaeaba.png)
+
+![FINISH LINE](https://user-images.githubusercontent.com/63988862/181522208-a807622c-84df-412a-bd66-8acac117b316.png)
+
+![RACE3](https://user-images.githubusercontent.com/63988862/181522211-97f76550-4acc-4296-b41d-9e6ecc212c79.png)
+
+
